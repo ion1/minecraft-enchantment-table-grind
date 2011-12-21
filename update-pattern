@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+
+gm montage -mode concatenate \
+  num-before.png "$@" num-after.png \
+  ench.sikuli/num.png
