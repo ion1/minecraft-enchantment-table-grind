@@ -5,8 +5,6 @@ class Ench:
         self.region = Screen(0).selectRegion()
 
     def run(self):
-        self.selectTitle()
-
         while True:
             self.refreshEnchs()
             try:
